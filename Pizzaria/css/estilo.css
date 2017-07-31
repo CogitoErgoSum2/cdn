@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #000;
+	font-weight: 400;
+	font-size: 15px;
+	margin: 0px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+ol,ul {
+	list-style:none;
+}
+
+.banner{
+	position:relative;
+	margin:0 auto;
+	width:800px;
+	height:200px;
+	text-align:center;
+	background-color:rgba(0,0,0,0);
+	padding: 0 0 20px 0;
+}
+
+#menu ul {
+	padding:0px;
+	margin:0px;
+	background-color:#000000;
+	list-style:none;
+}
+#menu ul li { 
+	display: inline; 
+}
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+	background-color:#000;
+	color: #FFF;
+	text-decoration: none;
+	border-bottom:3px solid #000;
+}
+#menu ul li a:hover {
+	background-color:#D6D6D6;
+	color: #6D6D6D;
+	border-bottom:3px solid #EA0000;
+}
+
+.central{
+	position:relative;
+	width:800px;
+	margin:0 auto;
+	color: #FFF;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.slideimg{
+	width: 740;
+	padding: 10px 30px;
+}
+
+.conteudo{
+	position:absolute;
+	width: 720px;
+	margin: 0px auto;
+	padding: 20px 40px 70px 40px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.esq{
+	width: 460px;
+	float:left;
+	padding: 0 0 20px 0;
+}
+
+.lateral{
+	width: 210px;
+	float: right;
+	padding: 20px 20px 0 20px;
+	background-color:#00CCFF;
+}
+
+.rodape{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 800px;
+	background-color:#000000;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#div1, #div2, #div3, #div4 {
+	position:absolute;
+	text-align: justify;
+	padding: 10px 20px;
+	background-color:rgba(0,0,0,0.7);
+}
+
+.menu_g{
+	float:left;
+	width:220;
+}
+
+.menu_g img{
+	margin: 0 auto;
+	width:120px;
+	height:120px;
+	border:solid 2px #FFFFFF;
+}
+
+.menu_g img:hover{
+	border: solid 2px #FFFF00;
+}
+
+.menu_g span{
+	 display:block;
+	 background-color:rgba(255,255,255,0.5);
+	 position:absolute;
+	 color:#000000;
+	 margin: 2px 2px;
+	 padding:2px 10px;
+	 width: 100px;
+	 font-weight:bold;
+	 font-size: 14px;
+}
+
+.menu_g span:hover{
+	background-color:rgba(255,255,0,0.5);
+}
+
+.tour{
+	position:relative;
+	float:left;
+	width: 570px;
+	height: 570px;
+	margin: 0 0 1px 20px;
+}
+
+.tour img{
+	margin: 20px 20px 10px 0;
+	border: solid 2px #FFFFFF;
+}
+
+.atv{
+	width:660px;
+	height: 160px;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color:rgba(0,0,0,0.7);
+}
+
+.atv img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	clear:both;
+	padding: 5px 30px 5px 5px;
+}
+
+.clear{
+	clear:both;
+}
+	
+h1, h2, h3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin: 20px 0;
+	text-align:justify;
+}
+
+.img_esq{
+	float:left;
+}
+
+/*Formulario*/
+*{
+margin:0;
+padding:0;
+}
+
+form,input,select,textarea{
+margin:0;
+padding:0;
+color:#ffffff;
+}
+
+div.box {
+margin: 0 auto;
+width:600px;
+background:#222222;
+position:relative;
+top:20px;
+border:1px solid #262626;
+}
+
+div.box h1 {
+color:#ffffff;
+font-size:18px;
+text-transform:uppercase;
+padding:5px 0 5px 5px;
+border-bottom:1px solid #161712;
+border-top:1px solid #161712;
+}
+
+div.box label {
+width:100%;
+display: block;
+background:#1C1C1C;
+border-top:1px solid #262626;
+border-bottom:1px solid #161712;
+padding:10px 0 10px 0;
+}
+
+div.box label .sp{
+display: block;
+color:#bbbbbb;
+font-size:18px;
+float:left;
+width:100px;
+text-align:right;
+padding:5px 50px 0 0;
+}
+
+div.box .input_text {
+padding:10px 10px;
+width:350px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+}
+
+div.box .message{
+padding:7px 7px;
+width:370px;
+background:#262626;
+border-bottom: 1px double #171717;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+overflow:hidden;
+height:150px;
+}
+
+div.box .button{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#CC0000;
+border:0px;
+position: relative;
+top:10px;
+left:430px;
+width:100px;
+border-bottom: 1px double #660000;
+border-top: 1px double #660000;
+border-left:1px double #FF0033;
+border-right:1px double #FF0033;
+}
